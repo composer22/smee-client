@@ -15,5 +15,4 @@ ENV SMEE_TARGET_PATH=
 RUN npm install -g smee-client
 COPY docker-entrypoint.sh /usr/local/bin/docker-entrypoint.sh
 CMD []
-EXPOSE 80 8080
 ENTRYPOINT ["/usr/local/bin/docker-entrypoint.sh"]
